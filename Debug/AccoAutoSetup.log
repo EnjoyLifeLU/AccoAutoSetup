@@ -1,0 +1,29 @@
+﻿Build started 2024/4/12 13:24:27.
+     1>Project "D:\code\cpp\AccoAutoSetup\AccoAutoSetup.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"M:\TestPE Share\AE_Service\cpp\Standard\fmt-4.1.0\include" /I"M:\TestPE Share\AE_Service\cpp\Standard\boost\include" /I"M:\TestPE Share\AE_Service\cpp\Standard\libcurl\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _WINSOCK_DEPRECATED_NO_WARNINGS /D FMT_HEADER_ONLY=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Config.cpp easylogging++.cc main.cpp Command.cpp gpibapi.cpp str_op.cpp Units.cpp
+         Units.cpp
+         str_op.cpp
+     1>d:\code\cpp\accoautosetup\str_op.cpp(72): warning C4172: returning address of local variable or temporary
+         gpibapi.cpp
+         Command.cpp
+         main.cpp
+         easylogging++.cc
+     1>d:\code\cpp\accoautosetup\easylogging++.cc(2658): warning C4101: 'ex' : unreferenced local variable
+         Config.cpp
+         Generating Code...
+       Link:
+         D:\Program\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\code\cpp\AccoAutoSetup\Debug\Autoload.exe" /INCREMENTAL /NOLOGO /LIBPATH:"M:\TestPE Share\AE_Service\cpp\Standard\fmt-4.1.0\lib" /LIBPATH:"M:\TestPE Share\AE_Service\cpp\Standard\boost\lib" /LIBPATH:"M:\TestPE Share\AE_Service\cpp\Standard\libcurl\lib" libcurl.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\code\cpp\AccoAutoSetup\Debug\Autoload.pdb" /SUBSYSTEM:CONSOLE /STACK:"40971520","40971520" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\code\cpp\AccoAutoSetup\Debug\Autoload.lib" /MACHINE:X86 Debug\Config.obj
+         Debug\easylogging++.obj
+         Debug\main.obj
+         Debug\Command.obj
+         Debug\gpibapi.obj
+         Debug\str_op.obj
+         Debug\Units.obj
+         ni4882.lib
+         AccoAutoSetup.vcxproj -> D:\code\cpp\AccoAutoSetup\Debug\Autoload.exe
+     1>Done Building Project "D:\code\cpp\AccoAutoSetup\AccoAutoSetup.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:25.09
